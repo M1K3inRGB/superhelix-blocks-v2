@@ -1,0 +1,16 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "superhelix-blocks-v2/section",
+    "title": "Section Block",
+    "category": "widgets",
+    "icon": "smiley",
+    "editorScript": "file:./index.js",
+    "render": "file:./render.php",
+    "attributes": {
+      "toggle": {
+        "type": "boolean",
+        "default": false
+        }
+    }
+}
